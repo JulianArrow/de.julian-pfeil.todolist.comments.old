@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/userGroupOption.xsd">
+    <import>
+        <options>
+			<option name="mod.todolist.canModerateComments">
+				<categoryname>mod.todolist</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<moddefaultvalue>1</moddefaultvalue>
+				<usersonly>1</usersonly>
+			</option>
+			<option name="mod.todolist.canEditComments">
+				<categoryname>mod.todolist</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<moddefaultvalue>1</moddefaultvalue>
+				<usersonly>1</usersonly>
+			</option>
+			<option name="mod.todolist.canDeleteComments">
+				<categoryname>mod.todolist</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<moddefaultvalue>1</moddefaultvalue>
+				<usersonly>1</usersonly>
+			</option>
+			<option name="user.todolist.canAddComments">
+				<categoryname>user.todolist</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<enableoptions>user.todolist.canAddCommentsWithoutModeration</enableoptions>
+				<excludedInTinyBuild>1</excludedInTinyBuild>
+			</option>
+			<option name="user.todolist.canAddCommentsWithoutModeration">
+				<categoryname>user.todolist</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<excludedInTinyBuild>1</excludedInTinyBuild>
+			</option>
+			<option name="user.todolist.canEditComments">
+				<categoryname>user.todolist</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+				<usersonly>1</usersonly>
+			</option>
+			<option name="user.todolist.canDeleteComments">
+				<categoryname>user.todolist</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<admindefaultvalue>1</admindefaultvalue>
+				<usersonly>1</usersonly>
+			</option>
+		</options>
+    </import>
+</data>

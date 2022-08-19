@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/templatelistener.xsd">
+    <import>
+        <templatelistener name="commentsTabMenuTabs">
+            <environment>user</environment>
+            <templatename>todo</templatename>
+            <eventname>tabMenuTabs</eventname>
+            <templatecode><![CDATA[{if $todo->enableComments}{if $commentList|count || $commentCanAdd}<li><a href="{@$__wcf->getAnchor('commentsTab')}">{lang}todolist.comment.plural{/lang}{if $todo->comments} <span class="badge">{#$todo->comments}</span>{/if}</a></li>{/if}{/if}]]></templatecode>
+        </templatelistener>
+        <templatelistener name="commentsTabMenuContents">
+            <environment>user</environment>
+            <templatename>todo</templatename>
+            <eventname>tabMenuContents</eventname>
+            <templatecode><![CDATA[{include file='__comments' application='todolist'}]]></templatecode>
+        </templatelistener>
+    </import>
+</data>

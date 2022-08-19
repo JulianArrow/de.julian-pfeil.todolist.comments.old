@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/5.4/language.xsd" languagecode="de">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.mod.todolist.canDeleteComment"><![CDATA[Can delete comments]]></item>
+		<item name="wcf.acp.group.option.mod.todolist.canEditComment"><![CDATA[Can edit comments]]></item>
+		<item name="wcf.acp.group.option.mod.todolist.canModerateComment"><![CDATA[Can moderate comments]]></item>
+		<item name="wcf.acp.group.option.user.todolist.canAddComment"><![CDATA[Can create comments]]></item>
+		<item name="wcf.acp.group.option.user.todolist.canAddCommentWithoutModeration"><![CDATA[Can create comments without approval]]></item>
+		<item name="wcf.acp.group.option.user.todolist.canDeleteComment"><![CDATA[Can delete their comments]]></item>
+		<item name="wcf.acp.group.option.user.todolist.canEditComment"><![CDATA[Can edit their comments]]></item>
+	</category>
+	
+	<category name="todolist.comment">
+		<item name="todolist.comment.title"><![CDATA[To-do comment]]></item>
+		<item name="todolist.comment.response"><![CDATA[Reply to to-do comment]]></item>
+		<item name="todolist.comment.plural"><![CDATA[Comment]]></item>
+		<item name="todolist.comment.enable"><![CDATA[Enable comments]]></item>
+		<item name="todolist.comment.enable.description"><![CDATA[Allow users to comment on this to-do.]]></item>
+	</category>
+</language>

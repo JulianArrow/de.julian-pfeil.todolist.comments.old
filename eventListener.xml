@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/eventListener.xsd">
+    <import>
+        <eventlistener name="todo">
+            <eventclassname>todolist\page\TodoPage</eventclassname>
+            <eventname>assignVariables,readData,readParameters</eventname>
+            <listenerclassname>todolist\system\event\listener\TodoEventListener</listenerclassname>
+        </eventlistener>
+        <eventlistener name="todoAdd">
+            <eventclassname>todolist\form\TodoAddForm</eventclassname>
+            <eventname>createForm</eventname>
+            <listenerclassname>todolist\system\event\listener\TodoAddEventListener</listenerclassname>
+            <inherit>1</inherit>
+        </eventlistener>
+    </import>
+</data>
