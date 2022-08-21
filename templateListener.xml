@@ -13,5 +13,11 @@
             <eventname>tabMenuContents</eventname>
             <templatecode><![CDATA[{include file='__comments' application='todolist'}]]></templatecode>
         </templatelistener>
+        <templatelistener name="commentsMetaData">
+            <environment>user</environment>
+            <templatename>todo</templatename>
+            <eventname>afterMetaData</eventname>
+            <templatecode><![CDATA[{if $entry->enableComments}<li><span class="icon icon16 fa-comments"></span>{lang}todolist.comment.metaData{/lang}</li>{/if}]]></templatecode>
+        </templatelistener>
     </import>
 </data>

@@ -16,5 +16,6 @@
 		<item name="todolist.comment.plural"><![CDATA[Comment]]></item>
 		<item name="todolist.comment.enable"><![CDATA[Enable comments]]></item>
 		<item name="todolist.comment.enable.description"><![CDATA[Allow users to comment on this to-do.]]></item>
+		<item name="todolist.comment.metaData"><![CDATA[{@$todo->comments|shortUnit} comment{if $todo->comments != 1}s{/if}]]></item>
 	</category>
 </language>
