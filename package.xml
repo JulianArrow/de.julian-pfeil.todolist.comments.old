@@ -6,7 +6,7 @@
 		<packagename languagecode="de">To-do-Liste - Kommentare</packagename>
 		<packagedescription languagecode="de">Kommentar-Plugin für die To-do-Liste.</packagedescription>
 		<version>1.1.0</version>
-		<date>2022-08-21</date>
+		<date>2022-08-22</date>
 		<packageurl><![CDATA[https://julian-pfeil.de]]></packageurl>
 	</packageinformation>
 	
@@ -34,9 +34,14 @@
 		<instruction type="eventListener" />
 		<instruction type="userGroupOption" />
 		<instruction type="objectType" />
+		<instruction type="userNotificationEvent" />
 	</instructions>
 
 	<instructions type="update" fromversion="1.0.0">
+		<instruction type="language" />
+
 		<instruction type="templatelistener" />
+		<instruction type="objectType" />
+		<instruction type="userNotificationEvent" />
 	</instructions>
 </package>

@@ -17,7 +17,7 @@
             <environment>user</environment>
             <templatename>todo</templatename>
             <eventname>afterMetaData</eventname>
-            <templatecode><![CDATA[{if $entry->enableComments}<li><span class="icon icon16 fa-comments"></span>{lang}todolist.comment.metaData{/lang}</li>{/if}]]></templatecode>
+            <templatecode><![CDATA[{if $todo->enableComments}<li><span class="icon icon16 fa-comments"></span> {lang}todolist.comment.metaData{/lang}</li>{/if}]]></templatecode>
         </templatelistener>
     </import>
 </data>

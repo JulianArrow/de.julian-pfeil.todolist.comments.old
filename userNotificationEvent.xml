@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/userNotificationEvent.xsd">
+	<import>
+		<event>
+			<name>comment</name>
+			<objecttype>de.julian-pfeil.todolist.comments.todoComment.notification</objecttype>
+			<classname>todolist\system\user\notification\event\TodoCommentUserNotificationEvent</classname>
+			<preset>1</preset>
+		</event>
+		<event>
+			<name>commentResponse</name>
+			<objecttype>de.julian-pfeil.todolist.comments.todoComment.response.notification</objecttype>
+			<classname>todolist\system\user\notification\event\TodoCommentResponseUserNotificationEvent</classname>
+			<preset>1</preset>
+		</event>
+		<event>
+			<name>commentResponseOwner</name>
+			<objecttype>de.julian-pfeil.todolist.comments.todoComment.response.notification</objecttype>
+			<classname>todolist\system\user\notification\event\TodoCommentResponseOwnerUserNotificationEvent</classname>
+			<preset>1</preset>
+		</event>
+        <event>
+			<name>like</name>
+			<objecttype>de.julian-pfeil.todolist.comments.todoComment.like.notification</objecttype>
+			<classname>todolist\system\user\notification\event\TodoCommentLikeUserNotificationEvent</classname>
+			<preset>1</preset>
+			<options>module_like</options>
+		</event>
+		<event>
+			<name>like</name>
+			<objecttype>de.julian-pfeil.todolist.comments.todoComment.response.like.notification</objecttype>
+			<classname>todolist\system\user\notification\event\TodoCommentResponseLikeUserNotificationEvent</classname>
+			<preset>1</preset>
+			<options>module_like</options>
+		</event>
+	</import>
+</data>
